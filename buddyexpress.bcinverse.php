@@ -8,7 +8,7 @@
  * @copyright 2013 BUDDYEXPRESS.
  * @license   Buddyexpress Public License http://www.buddyexpress.net/Licences/bpl/ 
  * @link      http://www.buddyexpress.net/bcinverse/
- * @Version   BCinverse 1.0.0
+ * @Version   BCinverse 1.0.1~dev
  * @File      buddyexpress.bcinverse.php encoding UTF-8
  * @Contributors @file contributors.md
  */
@@ -38,7 +38,7 @@ if($method  == 1){$strc = $get_input;} else {$strc = strtolower($get_input); }
 function buddyexpress_bcinverse_result($get_input = ''){
 if(!empty($get_input)){
 $params = array('a' => '&#592;','b' => 'q','c' => '&#596;','e' => '&#477;','f' => '&#607;','g' => '&#387;','h' => '&#613;','i' => '&#305;','j' => '&#638;','k' => '&#670;','l' => 'l','m' => '&#623;','n' => 'u','o' => 'o','p' => 'd','q' => 'b','r' => '&#633;',
-'s' => 's','t' => '&#647;','u' => 'u','v' => '&#652;','w' => '&#653;','x' => 'x','y' => '&#654;','z' => 'z','d' => 'p','!' => '&iexcl;');
+'s' => 's','t' => '&#647;','u' => 'n','v' => '&#652;','w' => '&#653;','x' => 'x','y' => '&#654;','z' => 'z','d' => 'p','!' => '&iexcl;');
        return  buddyexpress_bcinverse($get_input,$params);
     }
 }
