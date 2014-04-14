@@ -5,3 +5,4 @@ BCinverse or Buddyexpress Character is a project started by buddyexpress.net cor
 
 for any question please ask at buddyexpress (ask.buddyexpress.net)
 
+COPYRIGHT 2014 Informatikon Technologies informatikon.com
